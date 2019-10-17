@@ -13,4 +13,9 @@ def get_the_values(groceries)
   values_array = []
 
   groceries.each do |food_type, item_array|
+    item_array.each do |item|
+      values_array << item
+    end
+  end
+  
 end
