@@ -18,5 +18,5 @@ def get_the_values(groceries)
       #binding.pry
     end
   end
-
+  values_array
 end
