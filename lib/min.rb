@@ -22,8 +22,8 @@ def get_the_min_old(groceries)
 end
 
 def get_the_min(groceries)
-  item_array = groceries.values.flatten
+  item_array = groceries.values.flatten.min
 
-  min_item = item_array.min
+  #min_item = item_array.min
 
 end
