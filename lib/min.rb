@@ -27,5 +27,3 @@ def get_the_min(groceries)
   min_item = item_array.min
 
 end
-
-  
