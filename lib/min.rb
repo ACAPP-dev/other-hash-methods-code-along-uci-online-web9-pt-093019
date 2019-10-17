@@ -10,6 +10,16 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
+  item_array = []
+    groceries.each do |food_type, item|
+      food_type.each do |item|
+        item_array << item
+      end
+    end
+    min_item = item_array.min
+
+
+
   min_item = groceries.min
   #binding.pry
 end
