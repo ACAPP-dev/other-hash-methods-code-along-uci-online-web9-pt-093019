@@ -13,7 +13,7 @@ def get_the_min(groceries)
   item_array = []
     groceries.each do |food_type, item|
       binding.pry
-      food_type.each do |item|
+      item.each do |item|
         item_array << item
       end
     end
