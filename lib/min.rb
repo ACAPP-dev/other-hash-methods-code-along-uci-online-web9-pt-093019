@@ -13,7 +13,7 @@ def get_the_min(groceries)
   item_array = []
     groceries.each do |food_type, item_array|
 
-      item.each do |item_array|
+      item_array.each do |item|
         item_array << item
       end
     end
