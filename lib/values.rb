@@ -15,6 +15,7 @@ def get_the_values(groceries)
   groceries.each do |food_type, item_array|
     item_array.each do |item|
       values_array << item
+      binding.pry 
     end
   end
   
