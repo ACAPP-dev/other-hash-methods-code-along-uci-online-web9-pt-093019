@@ -18,6 +18,6 @@ def get_the_min(groceries)
       end
     end
     min_item = item_array.min
-  binding.pry
+  #binding.pry
 
 end
