@@ -12,8 +12,8 @@ def get_the_values(groceries)
   #code your solution here!
   values_array = []
 
-  groceries.each do |food_type, item_array|
-    item_array.each do |item|
+  groceries.each do |food_type, items|
+    items.each do |item|
       values_array << item
       binding.pry
     end
